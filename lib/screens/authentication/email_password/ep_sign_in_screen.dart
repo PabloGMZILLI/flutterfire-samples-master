@@ -76,7 +76,7 @@ class _EPSignInScreenState extends State<EPSignInScreen> {
                             ),
                           ),
                           Text(
-                            'Authentication',
+                            'Autenticação',
                             style: TextStyle(
                               color: Palette.firebaseOrange,
                               fontSize: 40,

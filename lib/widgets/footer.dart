@@ -19,25 +19,6 @@ class Footer extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  RichText(
-                    text: TextSpan(
-                      text: 'Based in the repository from: ',
-                      style: TextStyle(
-                        fontFamily: 'OpenSans',
-                        fontSize: 14.0,
-                        color: Colors.white54,
-                      ),
-                      children: [
-                        TextSpan(
-                          text: 'Souvik Biswas',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 16.0,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
                   SizedBox(height: 8.0),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.start,

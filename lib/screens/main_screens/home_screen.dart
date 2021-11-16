@@ -44,7 +44,7 @@ class HomeScreen extends StatelessWidget {
         elevation: 0,
         backgroundColor: Palette.firebaseNavy,
         title: AppBarTitle(
-          sectionName: 'Samples',
+          sectionName: 'Exemplos',
         ),
       ),
       body: SafeArea(
